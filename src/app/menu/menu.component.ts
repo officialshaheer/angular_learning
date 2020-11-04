@@ -8,6 +8,11 @@ import { Component, OnInit } from '@angular/core';
 export class MenuComponent implements OnInit {
 	names:string[];
 	content:string;
+
+	menuclick = function(){
+	alert("Clicked on menu!");
+	}
+
   constructor() { 
   	this.names= ["Home","Create","Remove","Update","Delete"];
   	this.content= "Welcome to my first angular app. This is going to be great!"
