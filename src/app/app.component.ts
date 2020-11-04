@@ -11,6 +11,6 @@ export class AppComponent {
   display = true;
 
   clicked = function(){
-  	alert("Button clicked");
+  	this.display = !this.display;
   }
 }
