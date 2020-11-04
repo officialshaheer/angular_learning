@@ -1,5 +1,5 @@
 <ul class="menu">
-	<li (click)="menuclick();" *ngFor="let menu_name of names">{{menu_name}}</li>
+	<li *ngFor="let menu_name of names" (click)="menuclick(menu_name);" >{{menu_name}}</li>
 </ul>
 
 {{content}}
