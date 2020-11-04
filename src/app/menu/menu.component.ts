@@ -10,7 +10,7 @@ export class MenuComponent implements OnInit {
 	content:string;
 
 	menuclick = function(menu_name){
-	alert("Clicked on menu!" + menu_name);
+	alert("Clicked on menu! " + menu_name);
 	}
 
   constructor() { 
