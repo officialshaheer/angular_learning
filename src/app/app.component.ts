@@ -8,6 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'credapp';
 
+  display = true;
+
   clicked = function(){
   	alert("Button clicked");
   }
