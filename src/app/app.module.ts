@@ -17,6 +17,9 @@ const myPath : Routes = [
   },
   {
     path:"about", component : AboutComponent
+  },
+  {
+    path:"", component: HomeComponent
   }
 ];
 

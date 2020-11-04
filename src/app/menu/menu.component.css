@@ -12,3 +12,8 @@
 .menu li:hover {
 	background-color: darkgreen;
 }
+
+.menu li a{
+	color: white;
+	text-decoration: none;
+}
