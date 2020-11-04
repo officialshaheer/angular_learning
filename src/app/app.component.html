@@ -1,7 +1,7 @@
 <app-menu></app-menu>
 
-<h2 *ngIf="display;">Display this</h2>
-
-<button (click)="clicked();">Click</button>
+<img *ngIf="display;" src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2016/01/11/17/15-light-bulb-rex.jpg?width=990">
+<img *ngIf="!display;" src="https://base.imgix.net/files/base/ebm/tdworld/image/2019/11/tdworld_20573_lightbulb_getty.png?auto=format&fit=crop&h=432&w=768">
+<button (click)="clicked();">{{display?"OFF":"ON"}}</button>
 
 <app-footer></app-footer>
